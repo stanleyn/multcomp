@@ -15,7 +15,7 @@ Description: Simultaneous tests and confidence intervals
   The package includes demos reproducing analyzes presented
   in the book "Multiple Comparisons Using R" (Bretz, Hothorn, 
   Westfall, 2010, CRC Press).
-Depends: stats, graphics, mvtnorm (>= 1.0-3), survival (>= 2.39-4),
+Depends: stats, graphics,survival (>= 2.39-4),
         TH.data (>= 1.0-2)
 Imports: sandwich (>= 2.3-0), codetools
 Suggests: lme4 (>= 0.999375-16), nlme, robustbase, coin, MASS, car,
